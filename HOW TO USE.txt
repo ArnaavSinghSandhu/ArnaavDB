@@ -1,0 +1,54 @@
+# ArnaavDB - Usage Instructions
+
+This guide explains how to run **ArnaavDB** using the precompiled `.class` files already included in the repository.
+
+## 1. Clone the Repository
+Clone the project from GitHub and navigate to the folder containing the compiled classes.
+
+```bash
+git clone https://github.com/YourUsername/ArnaavDB.git
+cd ArnaavDB/projects
+```
+
+## 2. Locate the Compiled Classes
+The compiled `.class` files are inside the `datastorage` package directory.
+
+Example structure:
+```
+projects/
+  DataStorage1/
+    Table.class
+    Row.class
+    Column.class
+    Parser.class
+    DatabaseHandler.class
+    Main.class
+```
+
+## 3. Run the Program
+Use the `java` command to run the main class, specifying the correct classpath and package name.
+
+```bash
+java -cp ".:antlr-4.13.2-complete.jar" DataStorage1.main1
+```
+
+## 4. Example Commands
+Once the CLI starts, you can use SQL-like commands:
+
+```sql
+ADD gender;
+INSERT INTO students VALUES (Arnaav, 19);
+INSERT INTO students VALUES (John, 21);
+SELECT name,marks FROM students WHERE age > 19 AND name = John;
+
+UPDATE students SET age = 22 WHERE name = John;
+```
+
+## 5. Notes
+- Every command must end with a semicolon (`;`) except ADD.
+- Logical operators supported: `AND`, `OR`.
+- Supported SQL commands:
+  - `INSERT`
+  - `UPDATE`
+  - `SELECT`
+  - `ADD COLUMN`
