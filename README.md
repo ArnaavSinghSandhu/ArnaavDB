@@ -1,2 +1,62 @@
 # ArnaavDB
 ArnaavDB – a fully functional SQL database engine written in Java.
+Overview
+ArnaavDB is a custom-built SQL database engine implemented entirely in Java — from parsing to query execution — without relying on existing database frameworks.
+It features a custom SQL parser, execution engine, and CLI interface, allowing users to perform core database operations interactively.
+
+This project demonstrates low-level system design, compiler-like parsing logic, and database internals knowledge — the kind of engineering behind enterprise systems like SQL Server and PostgreSQL.
+Features
+Custom SQL Parser
+
+Handles INSERT, UPDATE, SELECT, and ADD COLUMN commands
+
+Full support for WHERE clauses with logical operators AND / OR
+
+Execution Engine
+
+In-memory table storage with dynamic schema handling
+
+Type-safe row and column classes
+
+Optimized condition evaluation
+
+Schema Evolution
+
+ADD COLUMN support without data loss
+
+Command-Line Interface (CLI)
+
+Interactive shell for running SQL queries directly
+
+Error Handling
+
+Architecture
+Parser: Implements a recursive descent parser to interpret SQL syntax into an internal query tree.
+
+Execution Engine: Executes query trees against an in-memory table store.
+
+Storage Layer: Table, Row, and Column classes with dynamic schema adaptation.
+
+Future Improvements
+Persistent storage to disk (JSON / binary format)
+
+Support for DELETE and JOIN operations
+
+Primary key constraints & indexing
+
+Basic query optimization
+
+Skills Demonstrated
+Compiler & parser design (similar to ANTLR, but hand-coded)
+
+Database engine fundamentals
+
+Java OOP design & modular architecture
+
+CLI development
+
+Logical operator precedence handling
+
+
+
+Syntax error detection with clear messages
