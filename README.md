@@ -45,13 +45,17 @@ Support for DELETE and JOIN operations
 Primary key constraints & indexing
 
 Basic query optimization
+<img width="1133" height="291" alt="Screenshot 2025-08-09 at 8 16 16 PM" src="https://github.com/user-attachments/assets/1c816e09-1547-4706-9db4-07d438e982b2" />
 
 Skills Demonstrated
+
+
 Compiler & parser design (similar to ANTLR, but hand-coded)
 
 Database engine fundamentals
 
 Java OOP design & modular architecture
+
 
 CLI development
 
@@ -60,3 +64,7 @@ Logical operator precedence handling
 
 
 Syntax error detection with clear messages
+
+<img width="151" height="176" alt="Screenshot 2025-08-09 at 8 17 05 PM" src="https://github.com/user-attachments/assets/08f30faa-619d-4cf1-8941-cdbe2a8474a4" />
+
+
