@@ -22,6 +22,8 @@ Optimized condition evaluation
 
 Schema Evolution
 
+Persistent storage to disk(CSV)
+
 ADD COLUMN support without data loss
 
 Command-Line Interface (CLI)
@@ -38,7 +40,6 @@ Execution Engine: Executes query trees against an in-memory table store.
 Storage Layer: Table, Row, and Column classes with dynamic schema adaptation.
 
 Future Improvements
-Persistent storage to disk (JSON / binary format)
 
 Support for DELETE and JOIN operations
 
