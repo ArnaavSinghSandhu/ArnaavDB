@@ -7,7 +7,7 @@ Clone the project from GitHub and navigate to the folder containing the compiled
 
 ```bash
 git clone https://github.com/YourUsername/ArnaavDB.git
-cd ArnaavDB/projects
+cd ArnaavDB/projects/projects
 ```
 
 ## 2. Locate the Compiled Classes
@@ -29,7 +29,7 @@ projects/
 Use the `java` command to run the main class, specifying the correct classpath and package name.
 
 ```bash
-java -cp ".:antlr-4.13.2-complete.jar" DataStorage1.main1
+java -cp ".:antlr-4.13.2-complete.jar:opencsv-5.12.0.jar:commons-lang3-3.18.0.jar" DataStorage1.main1  
 ```
 
 ## 4. Example Commands
