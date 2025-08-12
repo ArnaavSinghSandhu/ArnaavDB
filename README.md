@@ -24,6 +24,12 @@ Schema Evolution
 
 Persistent storage to disk(CSV)
 
+Primary key constraints & indexing
+with fastload
+
+<img width="1135" height="731" alt="Screenshot 2025-08-12 at 6 08 50 PM" src="https://github.com/user-attachments/assets/b964667c-3854-4299-94ba-1bd251201faf" />
+
+
 ADD COLUMN support without data loss
 
 Command-Line Interface (CLI)
@@ -43,7 +49,6 @@ Future Improvements
 
 Support for DELETE and JOIN operations
 
-Primary key constraints & indexing
 
 Basic query optimization
 <img width="1133" height="291" alt="Screenshot 2025-08-09 at 8 16 16 PM" src="https://github.com/user-attachments/assets/1c816e09-1547-4706-9db4-07d438e982b2" />
